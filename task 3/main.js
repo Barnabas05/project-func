@@ -1,11 +1,11 @@
 let list = ["Banana" , "Orange" , "Apple" , "Mango"];
 
 
+console.log(list.length);
 
 
-let length = list.length;
+console.log(list.indexOf("Apple"));
 
-let position = list.indexOf("Apple");
 
 for (const i of list) {
     alert(i)
